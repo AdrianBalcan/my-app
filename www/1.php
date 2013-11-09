@@ -8,9 +8,8 @@
     </head>
     <body>
         <div class="app">
-        	<h1><a href="http://google.com">aaiaiaiai</a></h1>
-        	<BR><BR><BR>
-        	<a href="1.php">phpuu</a>
+        	<h1>yuppyy</h1>
+        	<?php echo "abc"; ?>
 		</div>
     </body>
 </html>
