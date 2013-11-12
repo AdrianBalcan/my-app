@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.connectwithromania.collectin" 
+<widget id="com.connectwithromania.collectin-ady" 
 		version="0.0.1" 
 		xmlns="http://www.w3.org/ns/widgets" 
 		xmlns:gap = "http://phonegap.com/ns/1.0">
 		
-    <name>Collectin</name>
+    <name>Collectin-ady</name>
     
     <description>
-        Collectin App
+        Collectin-ady App
     </description>
     
     <author email="support@connectwithromania.com" href="http://connectwithromania.com">

@@ -22,7 +22,7 @@
                <img id='image' src='img/pearl.png' class='image' />
            </div>
        </div>
-       <div id='locatie' class='clearfix' onclick="location.href='location.html'">
+       <div id='locatie' class='clearfix'">
            <p id='locatietext'>
            BONTON PALACE
            </p>
@@ -58,10 +58,15 @@
 	<div id="page"></div>
 	<div id="loaddd" style="display: none"></div>
     <!--HTML APP ENDS HERE-->
-  <script>
-  $().ready(function() { 
-  $( "#loaddd" ).load( "location.html #page" );
+<script>
+$(document).ready(function(){
+  $("#locatie").click(function(){
+    $("#primaryContainer").fadeOut(1000);
+	setTimeout(function() {
+  window.location.href = "location.html";
+}, 1000);
   });
-  </script>
+});
+</script>
 </body>
 </html>
