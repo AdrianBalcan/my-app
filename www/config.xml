@@ -44,6 +44,8 @@
 	<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
 	
 	<!--HTML Content--> 
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<plugin name="Device" value="org.apache.cordova.Device" />
     <content src="index.html" />
     <access origin="*" />
     <preference name="fullscreen" value="true" />
